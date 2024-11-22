@@ -69,6 +69,12 @@ Nous allons sauvegarder un fichier en utilisant le `commit` :
 git commit -m"First commit with README.md "
 ```
 
+#### Voir les `commit`
+
+Permet de voir les commit.
+
+	git log
+
 ### Zone de `repository remote`
 
 Nous allons créer un repository sur github, public ou privé, sans cocher les autres options (il ne doit pas y avoir de commit sur github autres que ceux en local)

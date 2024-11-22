@@ -57,7 +57,7 @@ Pour retirer du `staging` si on a déjà un commit :
 	git restore --staged nomdufichier.
 
 
-Lorsque nous allons refaire un `git status`, les fichiers qui sont prêts à être sauvegardés seront en **vert**, ceux qui ne seront pas envoyés restent en **rouge**
+Lorsque nous allons refaire un `git status`, les fichiers qui sont prêts à être sauvegardés seront en **vert**, ceux qui ne seront pas sauvegardés restent en **rouge**.
 
 
 ### Zone de `repository local`

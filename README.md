@@ -142,4 +142,25 @@ git pull
 
 ### Retour sur un commit
 
-On peut revenir sur un ancien commit, sans perdre les fichiers
+#### On peut revenir sur un ancien commit, sans perdre les fichiers
+
+```bash
+# on avait envoyé 4 commits en ligne
+git push
+
+# retourne sur un ancien commit 
+# ! disparition des commit qui suivent
+git restore 0901dfac84
+
+# on back 3 commits, 
+# sans modifier les fichiers physiques
+# en crant un nouveau commit
+git add .
+git commit -m"-3 commits + save files"
+```
+
+Si on effectue un `git push` on aura une erreur car il y a une incompatibilité de la chaîne de commit, une bifurcation.
+
+**seule possibilitée** : forcé le push :
+
+	git push --force origin main 

@@ -198,3 +198,13 @@ Si on effectue un `git push` on aura une erreur car il y a une incompatibilité 
 **seule possibilitée** : forcer le push :
 
 	git push --force origin main 
+	
+## Bonnes pratiques
+
+### Utilisation de branches
+
+Pour voir les branches :
+
+	git branch
+
+Par défaut

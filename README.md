@@ -139,3 +139,7 @@ git fetch
 git pull
 
 ```
+
+### Retour sur un commit
+
+On peut revenir sur un ancien commit, sans perdre les fichiers

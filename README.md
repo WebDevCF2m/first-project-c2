@@ -207,4 +207,26 @@ Pour voir les branches :
 
 	git branch
 
-Par défaut
+Par défaut nous avons que `main`
+
+Pour créer un branche (à partir de la branche actuelle active)
+
+	git branch nomDeLaBranche
+
+Pour accéder à la branche
+
+	git switch nomDeLaBranche
+	
+Pour retourner sur la main
+
+	git switch main
+
+Pour envoyer une branche en ligne
+
+	git push origin nomDeLaBranche
+
+pour supprimer une branche en local
+
+	git branch -d nomDeLaBranche
+
+Pour supprimer une branche sur github, passez par github (mauvaise pratique)

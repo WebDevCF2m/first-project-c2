@@ -150,7 +150,7 @@ git push
 
 # retourne sur un ancien commit 
 # ! disparition des commit qui suivent
-git restore 0901dfac84
+git reset 0901dfac84
 
 # on back 3 commits, 
 # sans modifier les fichiers physiques
@@ -183,7 +183,8 @@ git push
 
 # retourne sur un ancien commit 
 # ! disparition des commit qui suivent
-git restore --hard 0901dfac84
+# ! disparition des fichiers ou modifications de ceux-ci
+git reset --hard 5d61f7a
 
 # on back 3 commits, 
 # sans modifier les fichiers physiques

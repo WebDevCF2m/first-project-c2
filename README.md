@@ -125,3 +125,17 @@ git remote -v
 ```
 	
 Et nous pouvons travailler en local sur le projet.
+
+### Récupération de commit
+
+Pour récupérer les nouveaux commit ou commit non présents en local (par exemple travail sur plusieures machines) :
+
+```bash
+# recupère le dossier .git (vérification de modification)
+git fetch
+
+# si il y a des changents, récupération du dossier .git
+# Et des fichiers physiques
+git pull
+
+```
